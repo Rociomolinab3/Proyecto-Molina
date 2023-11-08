@@ -1,0 +1,86 @@
+.wrapper {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+   }
+   
+   .glow {
+    color:rgb(77 99 184);
+    text-shadow: rgb(56, 56, 56) 0 0 10px;
+   }
+
+   .boxImage{ 
+     height: 350px;
+     width: 400px;
+     margin: 10px ;
+     padding: 10px;
+     background: linear-gradient(rgba(73, 74, 94, 0.897), rgba(66, 122, 178, 0.726)),
+     center no-repeat;
+     image-resolution: 100%;
+     border-radius: 10px;
+     outline: none;
+   }
+   
+   .boxDescription{
+    width: 60% !important;
+    height: auto;
+     margin: 20px ;
+     padding: 20px;
+     background: linear-gradient(rgb(13 110 253 / 0%), rgb(182 161 229 / 26%)), center no-repeat;
+     image-resolution: 100%;
+     border-radius: 10px;
+     outline: none;
+   }
+   
+   .boxDetail{
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    padding: 30px 0px;
+    margin: 15px 210px;
+    border: 2px solid rgb(46, 45, 45);
+    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   h6{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(172, 156, 167);
+    text-decoration:none;
+ }
+
+ .contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:10px;
+    width: 60%;
+ }
+ .body{
+    background-color: rgb(186, 216, 125);
+    height: 100vh;
+ }
+
+ .buttoncart{
+        font-size: 0.8rem;
+        font-family: 'Work Sans';
+        background-color:  rgb(46, 45, 45);
+        border: 2px solid rgb(186, 216, 125);
+        border-radius: 3px;
+ }
+
+ .buttoncount{
+    font-weight: bold !important;
+    color: white;
+    font: initial;
+    font-size: 14px;
+    font-family: 'Work Sans';
+    background-color: rgb(55 62 55);
+    border: 2px solid rgb(243 245 237);
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 7px;
+  }

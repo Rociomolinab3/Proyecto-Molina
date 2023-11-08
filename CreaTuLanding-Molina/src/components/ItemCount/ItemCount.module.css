@@ -1,0 +1,27 @@
+.count{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+.buttoncount{
+    font-weight: bold !important;
+    color: white;
+    font: initial;
+    font-size: 14px;
+    font-family: 'Work Sans';
+    background-color: rgb(55 62 55);
+    border: 2px solid rgb(243 245 237);
+    border-radius: 5px;
+}
+.buttoncart{
+    font-size: 14px;
+    font-family: 'Work Sans';
+    background-color:  rgb(46, 45, 45);
+    border: 2px solid rgb(186, 216, 125);
+    border-radius: 5px;
+    margin:5px;
+    color: antiquewhite;
+    font: initial;
+}

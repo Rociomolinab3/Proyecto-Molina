@@ -3,7 +3,7 @@ import { getProducts, getProductsByCategory} from "../../asyncMock";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 
-const ItemListContainer = ({greeting}) =>{
+const ItemListContainer = () =>{
     const [products, setProducts] = useState([])
     const {categoryId} = useParams()
 
@@ -21,9 +21,6 @@ const ItemListContainer = ({greeting}) =>{
 
     return(
         <div>
-            <h1>
-                {greeting}
-            </h1>
             <ItemList products={products}/>
         </div>
     )
