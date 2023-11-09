@@ -4,6 +4,7 @@ import style from '../Item/Item.module.css';
 const Item = ({id,name,img,price,category}) => {
     return (
         <div className={style.body}> 
+        <div className={style.gridContainer}>
         <div className={style.boxDetail}>
                    <div className={style.wrapper}> 
                    </div>
@@ -19,6 +20,7 @@ const Item = ({id,name,img,price,category}) => {
                     <a>
                      <Link to={`/item/${id}`}>Ver detalle</Link>
                     </a>
+                    </div>
                     </div>
                     </div>
                     </div>

@@ -5,7 +5,7 @@
    }
    
    .glow {
-    color:rgb(77 99 184);
+    color:rgb(241, 241, 241);
     text-shadow: rgb(56, 56, 56) 0 0 10px;
    }
 
@@ -26,7 +26,7 @@
     height: auto;
      margin: 20px ;
      padding: 20px;
-     background: linear-gradient(rgb(13 110 253 / 0%), rgb(182 161 229 / 26%)), center no-repeat;
+     /* background: linear-gradient(rgb(13 110 253 / 0%), rgb(182 161 229 / 26%)), center no-repeat; */
      image-resolution: 100%;
      border-radius: 10px;
      outline: none;
@@ -45,8 +45,9 @@
    }
    
    h6{
+      font-size: 18px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(172, 156, 167);
+    color:rgb(177, 172, 176);
     text-decoration:none;
  }
 

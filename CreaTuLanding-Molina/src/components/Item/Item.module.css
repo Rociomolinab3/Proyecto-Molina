@@ -1,10 +1,10 @@
 .glow{
     font-size: 20px;
-}
+ }
 
   .boxDescription{
     /* background: linear-gradient(rgb(13 110 253 / 0%), rgb(182 161 229 / 26%)), center no-repeat; */
-    color:white;
+    color:rgb(99, 99, 99);
     image-resolution: 100%;
     border-radius: 10px;
     outline: none;
@@ -13,19 +13,21 @@
   .boxDetail{
    padding:5px;
    margin:15px;
-   background-color: rgb(116, 127, 10);
+   background-color: rgb(255, 255, 255);
    display: flex;
-   border: 2px solid rgb(139, 137, 137);
-   border-radius: 4px;
+   border: 1px solid rgb(172, 172, 172);
+   border-radius: 14px;
    display:flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   height: 350px;
+   box-shadow: 5px 7px #878787
   }
   
-  .h6{
+.h6{
    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   color:rgb(255, 244, 244);
+   color:rgb(107, 107, 107);
    text-decoration:none;
 }
 
@@ -35,11 +37,13 @@
    align-items: center;
    border:10px;
    width: 60%;
+   height: 100%;
 }
-.body{
+
+ .body{
    background-color: rgb(186, 216, 125);
-   /* height: 100vh; */
-}
+  /* display: absolute; */
+} 
 
 img {
    border-radius: 7px;

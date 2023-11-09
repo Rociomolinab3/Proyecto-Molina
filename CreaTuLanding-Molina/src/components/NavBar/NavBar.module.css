@@ -1,0 +1,18 @@
+.navLink {
+    color: rgb(230, 254, 230); 
+    font-size: 18px; 
+    text-decoration: none;
+    padding: 5px; 
+    font-family: sans-serif;
+    /* font-weight: bold; */
+  }
+  
+  .navLink:hover {
+    color:rgb(16, 178, 16);
+   
+  }
+
+  .customNavbar {
+    margin-bottom: -15px !important;
+    color: blue;
+  }

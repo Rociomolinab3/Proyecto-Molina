@@ -1,21 +1,26 @@
 import CartWidget from "../CartWidget/CartWidget";
 import { NavLink } from "react-router-dom";
+import logoIcon from "../../assets/Healthy (1).png"
+import style from '../NavBar/NavBar.module.css'
 
 const NavBar = () =>
 {
  return (
-    <nav className="navbar bg-dark text-light mb-5">
-        <div className="container-fluid">
-        <h3 className="col">E-commerce Healthy Market.</h3>
+    <nav className="navbar bg-dark text-light mb-4" >
+        <div className="container-fluid" style={{ marginBottom: "-16px" }}>
+        <h3 className="col d-flex align-items-center">
+          <img src={logoIcon} alt="Logo" className="mr-2" width="400px" height="110px"/> 
+        </h3>
+        {/* <h3 className="col">E-commerce Healthy Market.</h3> */}
         <div className="col d-flex justify-content-evenly" >
         <div>
-        <NavLink to={"/"} className={({isActive})=> isActive ? "ActiveOption" : "Option" }>Todos los Productos</NavLink>
+        <NavLink to={"/"} className={style.navLink}>TODOS </NavLink>
         </div>
         <div>
-        <NavLink to={"/category/vegano"} className={({isActive})=> isActive ? "ActiveOption" : "Option" }>Vegano</NavLink>
+        <NavLink to={"/category/vegano"} className={style.navLink }> VEGANOS </NavLink>
         </div>
         <div>
-        <NavLink to={"/category/glutenfree"} className={({isActive})=> isActive ? "ActiveOption" : "Option" }>Gluten Free</NavLink>
+        <NavLink to={"/category/glutenfree"} className={style.navLink}> GLUTEN FREE</NavLink>
         </div>
         
             {/* <button className="btn btn-primary">Veganos</button>
