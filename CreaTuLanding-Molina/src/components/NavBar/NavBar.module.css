@@ -16,3 +16,23 @@
     margin-bottom: -15px !important;
     color: blue;
   }
+
+  .logo{
+    margin: 2px;
+  }
+
+  @media only screen and (min-width: 1090px) and (max-width: 1200px){
+    .logo {
+       border-radius: 7px;
+       width: 300px !important;
+       height: 120px !important;
+     }
+  }
+  @media only screen and (min-width: 100px) and (max-width: 1089px){
+    .logo {
+       border-radius: 7px;
+       width: 200px !important;
+       height: 70px !important;
+     }
+  }
+

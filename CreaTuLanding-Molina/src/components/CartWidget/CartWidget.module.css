@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1090px) and (max-width: 1200px) {
+    .logo {
+       border-radius: 7px;
+       width: 35px !important;
+       height: 30px !important;
+     }
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 1089px) {
+    .logo {
+       border-radius: 7px;
+       width: 28px !important;
+       height: 24px !important;
+     }
+  }

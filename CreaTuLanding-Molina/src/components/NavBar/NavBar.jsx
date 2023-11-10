@@ -1,5 +1,5 @@
 import CartWidget from "../CartWidget/CartWidget";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logoIcon from "../../assets/Healthy (1).png"
 import style from '../NavBar/NavBar.module.css'
 
@@ -9,7 +9,7 @@ const NavBar = () =>
     <nav className="navbar bg-dark text-light mb-4" >
         <div className="container-fluid" style={{ marginBottom: "-16px" }}>
         <h3 className="col d-flex align-items-center">
-          <img src={logoIcon} alt="Logo" className="mr-2" width="400px" height="110px"/> 
+          <img src={logoIcon} alt="Logo" className={style.logo} width="400px" height="110px"/> 
         </h3>
         {/* <h3 className="col">E-commerce Healthy Market.</h3> */}
         <div className="col d-flex justify-content-evenly" >
@@ -28,7 +28,9 @@ const NavBar = () =>
             <button className="btn btn-primary">Sin Tacc</button> */}
         </div>
         <div className="col">
+        <Link to='/cart'>
         <CartWidget/>
+        </Link>
         </div>
        
         </div>
